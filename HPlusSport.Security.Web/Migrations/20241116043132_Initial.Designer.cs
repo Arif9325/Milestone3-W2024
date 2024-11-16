@@ -4,6 +4,7 @@ using HPlusSport.Security.Web.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HPlusSport.Security.Web.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    partial class ShopContextModelSnapshot : ModelSnapshot
+    [Migration("20241116043132_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -489,17 +492,17 @@ namespace HPlusSport.Security.Web.Migrations
                         {
                             Id = 1,
                             Email = "adam@example.com",
-                            Hash = "HGyjn+CnM3U1Xu+5usflPKD63Pw=",
+                            Hash = "dyKqMosDLiR/Ykzqqm3dV3LNx+c=",
                             Password = "",
-                            Salt = "SdN8x5Tkc2PG+eqy6JLfoO5BUTSES8WMng+HI8/balo="
+                            Salt = "G0EtOU8uhsIDtN+aIC8Bftbl1g9jgi+oU0JJA1l2yF0="
                         },
                         new
                         {
                             Id = 2,
                             Email = "barbara@example.com",
-                            Hash = "HGyjn+CnM3U1Xu+5usflPKD63Pw=",
+                            Hash = "dyKqMosDLiR/Ykzqqm3dV3LNx+c=",
                             Password = "",
-                            Salt = "XakRB7SFt4r5BJUYQHMiLkulVbb2oHt09WMAkoiNY5E="
+                            Salt = "GpDl2CotoPiYlULoaoFQXQYL37P333GLDzi0y3+F2gU="
                         });
                 });
 

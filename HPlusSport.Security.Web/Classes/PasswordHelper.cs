@@ -1,4 +1,6 @@
 ﻿using System.Security.Cryptography;
+
+
 namespace HPlusSport.Security.Web.Classes
 {
     public static class PasswordHelper
