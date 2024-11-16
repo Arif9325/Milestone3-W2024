@@ -1,3 +1,12 @@
+/*Course: 		Web Programming 3
+* Assessment: 	Milestone 3
+* Created by: 	Sayed Arif Shah - 2173124
+* Date: 		15-11-2024
+* Class Name: 	HomeController.cs
+* Description: 	The Home Controller. 
+* Time Task B):	2 Hours 
+*/
+
 using HPlusSport.Security.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
